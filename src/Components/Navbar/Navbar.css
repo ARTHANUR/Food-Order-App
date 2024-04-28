@@ -1,0 +1,59 @@
+.navbar{
+    width: 80vw;
+    height: 8rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        cursor: pointer;
+    }
+    div{
+        display: flex;
+        gap: 30px;
+
+        img{
+            object-fit: contain;
+            width: 20px;
+        }
+        
+        button{
+            background: transparent;
+            padding: 10px 30px;
+            border-radius: 18px;
+            border: 1px solid tomato;
+            color: blue;
+            transition: ease-in-out 0.3s;
+        }
+    }
+
+}
+
+.navbar>div>button:hover {
+    background-color: rgba(255, 99, 71, 0.344);
+    
+}
+
+.active{
+    border-bottom: 2px solid rgba(255, 99, 71, 0.648);
+}
+
+.basket-icon{
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    min-height: 10px;
+    min-width: 10px;
+    background-color: tomato;
+    border-radius: 15px;
+}

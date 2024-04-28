@@ -1,0 +1,40 @@
+.header{
+    background-image: url("https://res.cloudinary.com/dboa7dqkl/image/upload/v1713896500/Food%20Delivery%20App/header_img_h3fwhi.png");
+    height: 34vw;
+    width: 85vw;
+    margin: 30px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.337);
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 40%;
+        justify-content: space-around;
+        animation: fadeIn 3s;
+        h2{
+            font-weight: 500;
+            color: white;
+            font-size: max(4.5vw , 22px);
+        }
+        p{
+            color: white;
+            font-size: 1vw;
+        }
+        button{
+            width: 30%;
+            padding: 10px;
+            margin: 20px 0px;
+            background-color: white;
+            font-weight: 600;
+            border-radius: 18px;
+            border: none;
+            outline: none;
+            font-size: max(1vw , 13px);
+
+        }
+    }
+}
