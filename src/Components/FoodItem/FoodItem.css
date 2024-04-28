@@ -9,7 +9,8 @@
     border-radius: 18px;
     border-start-start-radius: 40%;
 
-    div{
+    div{   
+
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
