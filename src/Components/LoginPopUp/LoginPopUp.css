@@ -26,6 +26,8 @@
             >img {
                 width: 1.2rem;
                 height: 1.2rem;
+                cursor: pointer;
+                transform: translate(-10% , 30%);
             }
         }
 
@@ -49,6 +51,7 @@
 
                 >input {
                     margin: 5px;
+                    cursor: pointer;
                 }
 
                 >span {
@@ -64,6 +67,7 @@
                 border: none;
                 outline: none;
                 border-radius: 18px;
+                cursor: pointer;
             }
 
 
