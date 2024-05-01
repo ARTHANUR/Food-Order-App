@@ -1,0 +1,82 @@
+.login-pop-up {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.578);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >.login-pop-up-container {
+        width: 30%;
+        height: 70%;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 18px;
+
+        >.login-form-controller {
+            display: flex;
+            justify-content: space-between;
+
+            >h2 {
+                color: rgba(0, 0, 0, 0.539);
+            }
+
+            >img {
+                width: 1.2rem;
+                height: 1.2rem;
+            }
+        }
+
+        >.login-pop-up-input {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-evenly;
+            height: 90%;
+
+            >input {
+                height: 2rem;
+                font-size: 0.9rem;
+                padding: 0 1rem;
+            }
+
+            >.login-checkbox {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                >input {
+                    margin: 5px;
+                }
+
+                >span {
+                    font-size: 0.8rem;
+                }
+            }
+
+            >button {
+                width: 40%;
+                height: 2rem;
+                background-color: tomato;
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 18px;
+            }
+
+
+        }
+    }
+
+}
+
+.login-pop-up-footer>span{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.532);
+    >em{
+        color: rgb(96, 96, 250);
+        cursor: pointer;
+    }
+}
